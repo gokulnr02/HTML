@@ -1,0 +1,93 @@
+
+<!-- saved from url=(0053)file:///F:/1%20FULL%20STACK/PROJECT%20FILE/form1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title> form </title>
+<style>
+ 
+   form{
+    border: 1px solid black;
+    width: 380px;
+    height: auto;
+    padding: 10px;
+    }
+  
+     .lab1{
+      width: 150px;
+      display: inline-block;
+      padding: 10px;
+    }
+    .btn{
+      margin-left: 13%;
+     
+    }
+    .checkbox1{
+      margin-left: 175px;
+    }
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+     
+
+
+</style>
+</head>
+
+<body >
+<form>
+<div class="sneha">
+
+<label class="lab1">Enter the name </label>
+<input type="text" placeholder="enter name" required="true" maxlength="5" >
+<br>
+<label class="lab1">Enter the phn num </label>
+<input type="text" placeholder="enter mob num">
+<br>
+<label class="lab1">company name </label>
+<input type="text" value="tcs" readonly="true">
+<br>
+<label class="lab1">search</label>
+<input type="search">
+<br>
+<label class="lab1">Email id </label>
+<input type="email" placeholder="enter email id">
+<br>
+<label class="lab1">Password </label>
+<input type="password" placeholder="enter password">
+<br>
+<input type="checkbox" class="checkbox1"> show password
+<br>
+<label class="lab1">Gender</label>
+<input type="radio" value="male"> male
+<input type="radio" value="female"> female
+<br>
+<label class="lab1">address </label>
+<textarea style="height: 15px; width: 15px;"></textarea>
+ <br>
+<label class="lab1">purpose</label>
+<select>
+<option>self</option>
+<option>business</option>
+</select>
+<br>
+<label class="lab1"> datalist</label>
+<input list="browser">
+<datalist id="browser">
+ <option> chrome </option>
+ <option> firebox </option>
+ <option> opera </option>
+ </datalist>
+ <br>
+ <label class="lab1"> Date of birth </label>
+ <input type="date">
+ <br>
+<input type="submit" class="btn" value="submit">
+<input type="button" class="btn" value="cancel">
+<input type="reset" class="btn" value="reset">
+
+</div>
+
+</form>
+
+</body></html>
